@@ -10,7 +10,7 @@ const insertionSort = (array) => {
     }
 }
 
-const size = 45_000
+const size = 60_000
 
 const numberArray = fs.readFileSync('numberData.txt').toString().trim().split('\n').slice(0, size).map(n => Number(n))
 const stringArray = fs.readFileSync('stringData.txt').toString().trim().split('\n').slice(0, size)
